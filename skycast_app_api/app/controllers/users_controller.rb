@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
+  before_action :authenticate_token, except: [:login, :create]
 
   # GET /users
   def index
@@ -10,7 +11,7 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user
+    render json: get_current_user
   end
 
   # POST /users
@@ -59,7 +60,7 @@ class UsersController < ApplicationController
     # payload: hash user info
     def payload(id, username)
       {
-        exp: 1.day.from_now,
+        exp: (Time.now + 5.minutes).to_i,
         iat: Time.now.to_i,
         iss: ENV['JWT_ISSUER'],
         user: {
