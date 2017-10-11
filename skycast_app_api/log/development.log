@@ -1124,3 +1124,187 @@ Processing by UsersController#login as HTML
 Completed 200 OK in 70ms (Views: 0.5ms | ActiveRecord: 0.3ms)
 
 
+Started POST "/users/login" for 127.0.0.1 at 2017-10-11 12:37:47 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 71ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:43:37 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:43:38 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-11 12:43:46 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 104ms (Views: 0.5ms | ActiveRecord: 34.3ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:43:49 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:44:02 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:44:02 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:44:02 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:44:03 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-11 12:45:41 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 72ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:45:43 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:45:44 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:45:45 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:45:45 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:45:45 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:46:34 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:46:46 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:46:48 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:46:48 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:46:48 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:47:06 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:47:49 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:47:50 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:48:04 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:50:21 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:50:24 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-11 12:50:34 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 69ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:50:36 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:50:38 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2017-10-11 12:50:50 -0700
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate_token rendered or redirected
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
