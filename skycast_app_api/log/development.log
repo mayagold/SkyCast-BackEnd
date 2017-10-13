@@ -4558,3 +4558,38 @@ Processing by UsersController#login as HTML
 Completed 200 OK in 96ms (Views: 0.9ms | ActiveRecord: 11.9ms)
 
 
+Started POST "/users/login" for 127.0.0.1 at 2017-10-12 21:25:33 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 100ms (Views: 2.3ms | ActiveRecord: 10.9ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-12 21:25:59 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"teseting2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "teseting2"], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-12 21:26:15 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"teseting2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "teseting2"], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-12 21:26:38 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 71ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-12 22:26:48 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 83ms (Views: 3.1ms | ActiveRecord: 0.9ms)
+
+
