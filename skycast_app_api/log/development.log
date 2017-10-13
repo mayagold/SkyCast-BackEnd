@@ -4593,3 +4593,149 @@ Processing by UsersController#login as HTML
 Completed 200 OK in 83ms (Views: 3.1ms | ActiveRecord: 0.9ms)
 
 
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5814416938130973270)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateLocations (20171013191822)
+  [1m[35m (5.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (29.5ms)[0m  [1m[35mCREATE TABLE "locations" ("id" bigserial primary key, "lat" integer, "lng" integer, "location_name" character varying, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (2.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171013191822"]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(5814416938130973270)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/users/login" for 127.0.0.1 at 2017-10-13 12:25:03 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 82ms (Views: 0.6ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/locations/" for 127.0.0.1 at 2017-10-13 12:25:24 -0700
+Processing by LocationsController#create as HTML
+  Parameters: {"location"=>{"lat"=>"24.453884", "lng"=>"54.37734380000006", "location_name"=>"Abu Dhabi - United Arab Emirates", "user_id"=>2}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (3.4ms)[0m  [1m[32mINSERT INTO "locations" ("lat", "lng", "location_name", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["lat", 24], ["lng", 54], ["location_name", "Abu Dhabi - United Arab Emirates"], ["user_id", 2], ["created_at", "2017-10-13 19:25:24.276434"], ["updated_at", "2017-10-13 19:25:24.276434"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 47ms (Views: 0.9ms | ActiveRecord: 17.6ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5814416938130973270)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddKeyToLocations (20171013192938)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (18.3ms)[0m  [1m[35mALTER TABLE "locations" ALTER COLUMN "lat" TYPE decimal[0m
+  [1m[35m (4.3ms)[0m  [1m[35mALTER TABLE "locations" ALTER COLUMN "lng" TYPE decimal[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171013192938"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(5814416938130973270)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/users/login" for 127.0.0.1 at 2017-10-13 12:32:04 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 83ms (Views: 0.6ms | ActiveRecord: 3.6ms)
+
+
+Started POST "/locations/" for 127.0.0.1 at 2017-10-13 12:32:21 -0700
+Processing by LocationsController#create as HTML
+  Parameters: {"location"=>{"lat"=>"-37.81361100000001", "lng"=>"144.96305600000005", "location_name"=>"Melbourne, Victoria, Australia", "user_id"=>2}}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (7.0ms)[0m  [1m[32mINSERT INTO "locations" ("lat", "lng", "location_name", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["lat", "-37.81361100000001"], ["lng", "144.96305600000005"], ["location_name", "Melbourne, Victoria, Australia"], ["user_id", 2], ["created_at", "2017-10-13 19:32:21.928286"], ["updated_at", "2017-10-13 19:32:21.928286"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 56ms (Views: 1.0ms | ActiveRecord: 21.0ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-13 12:51:52 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 80ms (Views: 1.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations/" for 127.0.0.1 at 2017-10-13 12:52:02 -0700
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (4.2ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 34ms (Views: 13.9ms | ActiveRecord: 13.9ms)
+
+
+Started POST "/locations/" for 127.0.0.1 at 2017-10-13 12:52:31 -0700
+Processing by LocationsController#create as HTML
+  Parameters: {"location"=>{"lat"=>"47.6062095", "lng"=>"-122.3320708", "location_name"=>"Seattle, WA, United States", "user_id"=>2}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (2.3ms)[0m  [1m[32mINSERT INTO "locations" ("lat", "lng", "location_name", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["lat", "47.6062095"], ["lng", "-122.3320708"], ["location_name", "Seattle, WA, United States"], ["user_id", 2], ["created_at", "2017-10-13 19:52:31.905443"], ["updated_at", "2017-10-13 19:52:31.905443"]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 14ms (Views: 1.3ms | ActiveRecord: 5.7ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-13 12:53:59 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 71ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/locations/" for 127.0.0.1 at 2017-10-13 12:53:59 -0700
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.5ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/locations/" for 127.0.0.1 at 2017-10-13 12:54:15 -0700
+Processing by LocationsController#create as HTML
+  Parameters: {"location"=>{"lat"=>"40.7127753", "lng"=>"-74.0059728", "location_name"=>"New York, NY, United States", "user_id"=>2}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "locations" ("lat", "lng", "location_name", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["lat", "40.7127753"], ["lng", "-74.0059728"], ["location_name", "New York, NY, United States"], ["user_id", 2], ["created_at", "2017-10-13 19:54:15.029871"], ["updated_at", "2017-10-13 19:54:15.029871"]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 10ms (Views: 0.7ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-13 12:58:33 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 69ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locations/" for 127.0.0.1 at 2017-10-13 12:58:34 -0700
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.4ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-13 13:00:18 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 69ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/locations/" for 127.0.0.1 at 2017-10-13 13:00:18 -0700
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.6ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2017-10-13 13:01:13 -0700
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 66ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/locations/" for 127.0.0.1 at 2017-10-13 13:01:13 -0700
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.3ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
