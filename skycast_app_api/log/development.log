@@ -1972,3 +1972,2589 @@ Filter chain halted as :authenticate_token rendered or redirected
 Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:28:52 -0700
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:28:53 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:13 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:31:14 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:14 -0700
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:31:15 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:16 -0700
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:31:16 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:18 -0700
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:31:18 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:19 -0700
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:31:19 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:20 -0700
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:31:21 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:21 -0700
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:21 -0700
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:28 -0700
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:31:28 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:31:31 -0700
+  
+LoadError (Unable to autoload constant WelcomeController, expected /Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/welcome_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:31:31 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:32:20 -0700
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:32:20 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:32:25 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:33:55 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:33:55 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:33:56 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:33:56 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:34:00 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:34:00 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:34:00 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:34:01 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:34:01 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:34:01 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:34:01 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:34:08 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `lat' for #<ForecastsController:0x007fe9969ebb78>):
+  
+app/controllers/forecasts_controller.rb:20:in `forecast'
+app/controllers/forecasts_controller.rb:8:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:34:26 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 1991ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:34:31 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 1956ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:34:34 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 2071ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:34:37 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 2720ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-10-12 12:34:40 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:34:45 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 1843ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:34:52 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 2104ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:35:07 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:35:08 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:35:12 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 1887ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:35:27 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:35:35 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:35:36 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:35:39 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 1913ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:35:46 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:36:01 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/welcome" for 127.0.0.1 at 2017-10-12 12:37:12 -0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:9:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/welcome" for 127.0.0.1 at 2017-10-12 12:37:19 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/welcome" for 127.0.0.1 at 2017-10-12 12:37:26 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/welcome/index" for 127.0.0.1 at 2017-10-12 12:37:32 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/index"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/welcome" for 127.0.0.1 at 2017-10-12 12:37:35 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:37:48 -0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:9:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:37:50 -0700
+Processing by WelcomeController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:37:52 -0700
+Processing by WelcomeController#index as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2017-10-12 12:37:58 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-12 12:38:00 -0700
+Processing by WelcomeController#index as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts" for 127.0.0.1 at 2017-10-12 12:38:05 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/forecasts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:38:19 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:38:23 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:38:39 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:38:54 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:40:06 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 690ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:40:08 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 579ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:41:17 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 684ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:41:46 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 701ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:41:53 -0700
+  
+SyntaxError (/Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/forecasts_controller.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+      puts @forecast "forecast"
+                      ^):
+  
+app/controllers/forecasts_controller.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:42:01 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 2275ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:42:47 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 649ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:43:24 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 602ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:43:51 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 614ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:44:26 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 630ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:44:42 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 586ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:44:45 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 572ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:44:50 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 705ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:45:51 -0700
+Processing by ForecastsController#index as */*
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `lat' for #<ForecastsController:0x007fe996d32ed0>):
+  
+app/controllers/forecasts_controller.rb:23:in `forecast'
+app/controllers/forecasts_controller.rb:12:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:46:03 -0700
+Processing by ForecastsController#index as */*
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `lat' for #<ForecastsController:0x007fe996bc7e38>):
+  
+app/controllers/forecasts_controller.rb:23:in `forecast'
+app/controllers/forecasts_controller.rb:12:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:46:14 -0700
+Processing by ForecastsController#index as */*
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `lat' for #<ForecastsController:0x007fe996c9b5a8>
+Did you mean?  @lat):
+  
+app/controllers/forecasts_controller.rb:24:in `forecast'
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:46:24 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 718ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:48:18 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 627ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 12:48:20 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 560ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:04:02 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `doc' for #<ForecastsController:0x007fe99357e070>):
+  
+app/controllers/forecasts_controller.rb:7:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:05:16 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `doc' for #<ForecastsController:0x007fe9940c68b0>):
+  
+app/controllers/forecasts_controller.rb:7:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:12:37 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 803ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:13:05 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 586ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:14:15 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 568ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:15:05 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 825ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:15:54 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 810ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:16:06 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:16:49 -0700
+Processing by ForecastsController#index as */*
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `doc' for #<ForecastsController:0x007fe993bcf870>):
+  
+app/controllers/forecasts_controller.rb:7:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:17:10 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 797ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:17:19 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 484ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:17:22 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 484ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:17:27 -0700
+Processing by ForecastsController#index as */*
+Completed 204 No Content in 483ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:17:39 -0700
+Processing by ForecastsController#index as HTML
+Completed 204 No Content in 512ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:17:57 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 505ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Hashie::Mash into String):
+  
+app/controllers/forecasts_controller.rb:10:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:18:09 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 589ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:18:46 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 716ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `body' for #<String:0x007fe996d064e8>):
+  
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:19:04 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 622ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:19:15 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 608ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `data' for #<String:0x007fe996cc3238>):
+  
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:19:33 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 586ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:19:46 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 650ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:20:01 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 703ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:20:13 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 738ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `data' for "{":String):
+  
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:20:24 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 650ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:20:48 -0700
+Processing by ForecastsController#index as */*
+Completed 500 Internal Server Error in 771ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `currently' for "{":String):
+  
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:21:10 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:21:11 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:21:53 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 593ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:22:01 -0700
+Processing by ForecastsController#index as */*
+Completed 500 Internal Server Error in 624ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `currently' for #<String:0x007fe99508b610>):
+  
+app/controllers/forecasts_controller.rb:10:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:22:09 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 705ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:22:34 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 704ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:22:42 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 548ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:22:56 -0700
+Processing by ForecastsController#index as */*
+Completed 500 Internal Server Error in 615ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `latitude' for "{":String):
+  
+app/controllers/forecasts_controller.rb:10:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:23:23 -0700
+Processing by ForecastsController#index as */*
+Completed 500 Internal Server Error in 752ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `typeOf' for #<ForecastsController:0x007fe996ab85d8>):
+  
+app/controllers/forecasts_controller.rb:10:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:23:30 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 605ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:24:35 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 636ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:24:51 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 582ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:25:02 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 582ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:25:28 -0700
+  
+SyntaxError (/Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/forecasts_controller.rb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+ "forecast currently" forecast.currently
+                              ^):
+  
+app/controllers/forecasts_controller.rb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:25:44 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 576ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:28:16 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 713ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:34:02 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/mayagold/dev/Bluewolf/SkyCast-BackEnd/skycast_app_api/app/controllers/forecasts_controller.rb:31: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/forecasts_controller.rb:31: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:34:34 -0700
+Processing by ForecastsController#index as */*
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+
+
+  
+Nokogiri::XML::XPath::SyntaxError (ERROR: Invalid expression: //input/[@id="latitude"]):
+  
+app/controllers/forecasts_controller.rb:12:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:35:51 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 778ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:37:39 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 443ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:37:43 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 442ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:37:58 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 550ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:38:53 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1059ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:39:13 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1006ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:41:26 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 840ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:41:46 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 941ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:48:33 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 432ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:48:51 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" required>,<input type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" required>):
+  
+app/controllers/forecasts_controller.rb:18:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:49:07 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 526ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:50:23 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 395ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:50:41 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 376ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:52:34 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 361ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:52:46 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+Nokogiri::CSS::SyntaxError (unexpected '$' after ' '):
+  
+app/controllers/forecasts_controller.rb:15:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:53:08 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `content' for []:Nokogiri::XML::NodeSet):
+  
+app/controllers/forecasts_controller.rb:15:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:53:24 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `content' for []:Nokogiri::XML::NodeSet):
+  
+app/controllers/forecasts_controller.rb:18:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:55:03 -0700
+Processing by ForecastsController#index as */*
+Completed 200 OK in 521ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:56:50 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 378ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:57:09 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (URI must be ascii only "https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<!DOCTYPE html>\n<html lang=\"en\" ng-app=\"skycastApp\">\n  <!-- Meta -->\n  <head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta charset=\"utf-8\">\n    <!-- Ensure proper rendering and touch zooming -->\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- Link to CSS File -->\n    <link rel=\"stylesheet\" href=\"main.css\">\n    <!-- Add a favicon -->\n    <!-- Link to Bootstrap latest compiled and minified CSS -->\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n    <!-- Link to jQuery library -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>\n    <!-- Link to Bootstrap latest compiled JavaScript -->\n    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n    <!-- Link to Angular Library -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js\"></script>\n    <!-- Link to Google Maps visualization library  -->\n    <script type=\"text/javascript\" src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAFLkNkNg4qp6NDEQQVxuU2CLFlgl6TyKY&amp;libraries=visualization\">\n    </script>\n    <!-- Link to Google Maps places,geometry libraries -->\n    <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAFLkNkNg4qp6NDEQQVxuU2CLFlgl6TyKY&amp;libraries=places,geometry\"></script>\n    <!-- Google Maps -->\n    <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAFLkNkNg4qp6NDEQQVxuU2CLFlgl6TyKY&amp;libraries=places&amp;callback=initAutocomplete\" async defer></script>\n    <!-- Link to app.js File  -->\n    <script type=\"text/javascript\" src=\"app.js\"></script>\n    <title>SkyCast: Disrupt the Weather</title>\n  </head>\n  <!-- DOM -->\n  <body ng-controller=\"mainController as ctrl\">\n    hello\n    <h1>{{ctrl.testing}}</h1>\n\n    <h2>Logged in user's username: {{ctrl.user.username}}</h2>\n\n    <h4 ng-click=\"ctrl.getUsers()\">Click to view authorized content</h4>\n    <div>{{ctrl.error}}</div>\n    <div ng-show=\"localStorage.token\">Authorized Content\n    </div>\n\n    <form ng-submit=\"ctrl.login(userPass)\">\n      <input type=\"text\" ng-model=\"userPass.username\" placeholder=\"username\">\n      <input type=\"password\" ng-model=\"userPass.password\" placeholder=\"password\">\n      <input type=\"submit\">\n    </form>\n\n    <form ng-submit=\"ctrl.register(userReg)\">\n      <input type=\"text\" ng-model=\"userReg.username\" placeholder=\"username\">\n      <input type=\"password\" ng-model=\"userReg.password\" placeholder=\"password\">\n      <input type=\"confirmPassword\" ng-model=\"userReg.confirmPassword\" placeholder=\"confirm password\">\n      <input type=\"submit\">\n      <p ng-if=\"ctrl.noMatch===true\">Passwords do not match. Please reenter and confirm your password.</p>\n    </form>\n\n    <form ng-submit=\"ctrl.logout()\">\n      <input type=\"submit\" name=\"logout\" value=\"Log Out\">\n    </form>\n\n    <!-- Dark Sky API search form -->\n\n    <br><br><br><br><br>\n    <h1>Dark Sky API call input form</h1>\n    <form ng-submit=\"ctrl.getWeather()\">\n        <ul>\n          <li>\n            <label for=\"city-search\">City Name</label>\n            <input type=\"text\" id=\"city-search\" placeholder=\"e.g. Seattle, WA\">\n          </li>\n          <li>\n            <label for=\"latitude\">Latitude</label>\n            <input type=\"text\" ng-model=\"coords.latitude\" id=\"latitude\" placeholder=\"e.g. 47.6062\" required>\n          </li>\n          <li>\n              <label for=\"longitude\">Longitude</label>\n              <input type=\"text\" ng-model=\"coords.longitude\" id=\"longitude\" placeholder=\"e.g. -122.3321\" required>\n          </li>\n        </ul>\n        <button>Get Weather</button>\n    </form>\n\n    <div id=\"map\"></div>\n\n    <div id=\"forecast\" ng-show=\"ctrl.forecast!==''\">\n      <p>Current Temperature: {{ctrl.forecast.currently.apparentTemperature}}\u00B0C</p>\n      <p>Conditions: {{ctrl.forecast.currently.summary}}</p>\n      <p>Humidity: {{ctrl.forecast.currently.humidity}}%</p>\n      <p>Chance of Precipitation: {{ctrl.forecast.currently.precipProbability}}%</p>\n      <p>This week: {{ctrl.forecast.daily.summary}}</p>\n\n      <button type=\"button\" name=\"button\" ng-show=\"ctrl.user.username\">Save This Location</button>\n    </div>\n\n  <footer>\n    <a href=\"https://darksky.net/poweredby/\">Powered by Dark Sky</a>\n  </footer>\n  </body>\n</html>\n,"):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:58:11 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input type="text" ng-model="userPass.username" placeholder="username"><input type="password" ng-model="userPass.password" placeholder="password"><input type="submit"><input type="text" ng-model="userReg.username" placeholder="username"><input type="password" ng-model="userReg.password" placeholder="password"><input type="confirmPassword" ng-model="userReg.confirmPassword" placeholder="confirm password"><input type="submit"><input type="submit" name="logout" value="Log Out"><input type="text" id="city-search" placeholder="e.g. Seattle, WA"><input type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" required><input type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" required>,-122.3320708):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 13:58:45 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 416ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:00:43 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" required>,<input type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:00:53 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" required>,<input type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:01:22 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `content' for #<Nokogiri::XML::NodeSet:0x007ff7bd0db260>):
+  
+app/controllers/forecasts_controller.rb:17:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:02:43 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/forecasts_controller.rb:15:in `[]'
+app/controllers/forecasts_controller.rb:15:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:03:26 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/forecasts_controller.rb:15:in `[]'
+app/controllers/forecasts_controller.rb:15:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:03:52 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" required>,<input type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:05:21 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 773ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:06:40 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 459ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:07:15 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 438ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:07:29 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 436ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:07:50 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input name="latitude" type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" required>,<input name="longitude" type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:09:12 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input name="latitude" type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" value="" required>,<input name="longitude" type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" value="" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:17:34 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 494ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:17:51 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 448ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:18:22 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 454ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:18:33 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 498ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:18:38 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 722ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:19:11 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `value' for #<ForecastsController:0x007ff7bf82b4f0>):
+  
+app/controllers/forecasts_controller.rb:15:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:21:32 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `empty?' for #<Nokogiri::XML::Element:0x007ff7bd248508>):
+  
+app/controllers/forecasts_controller.rb:16:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:22:11 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `empty?' for #<Nokogiri::XML::Element:0x007ff7be1a86d8>):
+  
+app/controllers/forecasts_controller.rb:16:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:22:46 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `empty?' for #<Nokogiri::XML::Element:0x007ff7bcf33db8>):
+  
+app/controllers/forecasts_controller.rb:16:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:23:11 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 483ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:27:35 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 426ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:31:48 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 450ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:32:04 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input name="latitude" type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" value="" required>,<input name="longitude" type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" value="" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:32:56 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input name="latitude" type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" value="" required>,<input name="longitude" type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" value="" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:33:32 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input name="latitude" type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" value="" required>,<input name="longitude" type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" value="" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:37:45 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input name="latitude" type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" value="" required>,<input name="longitude" type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" value="" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:37:45 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/<input name="latitude" type="text" ng-model="coords.latitude" id="latitude" placeholder="e.g. 47.6062" value="" required>,<input name="longitude" type="text" ng-model="coords.longitude" id="longitude" placeholder="e.g. -122.3321" value="" required>):
+  
+app/controllers/forecasts_controller.rb:23:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:44:05 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:44:53 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:45:19 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1917ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:45:39 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 769ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:46:10 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1832ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:46:54 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 21ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:47:25 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:49:39 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `html_safe' for nil:NilClass
+Did you mean?  html_safe?):
+  
+app/controllers/forecasts_controller.rb:26:in `forecast'
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:50:06 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 20ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:50:46 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:50:56 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/forecasts_controller.rb:28:in `[]'
+app/controllers/forecasts_controller.rb:28:in `forecast'
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:51:59 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/forecasts_controller.rb:28:in `[]'
+app/controllers/forecasts_controller.rb:28:in `forecast'
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:53:07 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/forecasts_controller.rb:28:in `[]'
+app/controllers/forecasts_controller.rb:28:in `forecast'
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:53:31 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 27ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:53:54 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:54:24 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 14:59:41 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 2063ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:00:19 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1778ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:00:55 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1828ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:01:22 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1879ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:02:31 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 841ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:02:55 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1616ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:03:11 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 2111ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:03:47 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1799ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:05:56 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 2)):
+  
+app/controllers/forecasts_controller.rb:22:in `forecast'
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:07:52 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 2)):
+  
+app/controllers/forecasts_controller.rb:22:in `forecast'
+app/controllers/forecasts_controller.rb:11:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:09:33 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 947ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:09:52 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `lat' for #<ForecastsController:0x007ff7bd39e5b0>):
+  
+app/controllers/forecasts_controller.rb:28:in `forecast'
+app/controllers/forecasts_controller.rb:15:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:10:19 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 832ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:10:54 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1685ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:11:10 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1554ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:11:25 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1383ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:12:49 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `lat' for #<ForecastsController:0x007ff7bcf08708>):
+  
+app/controllers/forecasts_controller.rb:12:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:13:21 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 378ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `config' for nil:NilClass):
+  
+app/controllers/forecasts_controller.rb:12:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:14:01 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1617ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:14:02 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 1731ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:17:10 -0700
+Processing by ForecastsController#index as HTML
+Completed 200 OK in 821ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:17:42 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.darksky.net/forecast/a9d279d680c92a498e132e03592ee873/{"controller"=>"forecasts", "action"=>"index"},):
+  
+app/controllers/forecasts_controller.rb:31:in `forecast'
+app/controllers/forecasts_controller.rb:18:in `index'
+Started GET "/forecasts/index" for 127.0.0.1 at 2017-10-12 15:20:31 -0700
+Processing by ForecastsController#index as HTML
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `data' for #<ActionDispatch::Response:0x007ff7bcf438a8>
+Did you mean?  date):
+  
+app/controllers/forecasts_controller.rb:10:in `index'
+Started POST "/users/login" for 127.0.0.1 at 2017-10-12 16:04:36 -0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#login as HTML
+  Parameters: {"user"=>{"username"=>"testing2", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "testing2"], ["LIMIT", 1]]
+Completed 200 OK in 96ms (Views: 0.9ms | ActiveRecord: 11.9ms)
+
+
